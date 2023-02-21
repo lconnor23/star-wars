@@ -5,6 +5,7 @@ const bodyParser = require('body-parser')
 const app = express()
 const MongoClient = require('mongodb').MongoClient
 require('dotenv').config()
+const PORT = process.env.PORT || 3000
 
 
 let db,
@@ -68,8 +69,8 @@ MongoClient.connect(dbConnectionStr, { useUnifiedTopology: true})
             })
             .catch(error => console.error(error))
         })
-        app.listen(3000, function() {
-            console.log('listening on 3000')
+        app.listen(PORT, function() {
+            console.log(`Listening on Port ${PORT}`)
         })
     })
     .catch(error => console.error(error))
