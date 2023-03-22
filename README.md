@@ -1,7 +1,7 @@
 # Star Wars Quote App
 
 ![alt text](assets/star-wars.gif)
-
+Unfortunately my free hours have run out on railway, so this app is no longer hosted.
 [https://star-wars-crud.up.railway.app/](https://star-wars-crud.up.railway.app/)
 
 Users can enter a character name and quote. The quote will be added to the database and show up listed on the page. In the Darth Vader Invades section, a Yoda quote can be replaced with a Darth Vader quote. Finally, the user can also delete Darth Vader quotes. The page will automatically update the quotes section.
